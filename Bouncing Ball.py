@@ -3,7 +3,7 @@ pygame.init()
 
 size = width, height = 700, 300
 speed = [1, 1]
-background = 255, 255, 255
+background = (255, 255, 255)
 
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Bouncing ball")
